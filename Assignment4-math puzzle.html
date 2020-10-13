@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+ <head>
+    <title>Can_Assignment4</title>
+ </head>
+<body>
+    <form action="#" method="post">
+        4 plus 16 equals to ? <input type="text" name="first" id="first"/>
+        <input type="submit" value="check"onclick="check();"/>
+    </form>
+    <script language="javascript" type="text/javascript">
+        function check(){
+            var f=document.getElementById("first").value;
+            if(f=20)
+              {  // If f is equal to 20
+                alert(f+" is correct!);
+              }
+            else
+              {
+            if(f="")
+            {  // if there is nothing in the input box
+               alert("please enter a number! ");
+               return;
+            }
+            if(f!=100)
+            { //If f is not equal to 20
+              alert(f+" is wrong!please try again");
+            }
+}
+ </script>
+ </body>
+</html>
